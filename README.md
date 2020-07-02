@@ -25,8 +25,7 @@ mkdir /srv/salt/grok-exporter
 cd /srv/salt/grok-exporter
 ```
 
-4. **Criar salt formula com o arquivo init.sls**: 
-```vim init.sls``` com o conteúdo de <a href="https://github.com/gbrlins/grok-exporter-formula/blob/master/init.sls">init.sls</a>
+4. **Criar salt formula com o arquivo init.sls**: ```vim init.sls``` com o conteúdo de <a href="https://github.com/gbrlins/grok-exporter-formula/blob/master/init.sls">init.sls</a>
 
 5. **Dentro do diretório atual, mover o .tar criado**:
 ```mkdir files``` e ```mv {grok-exporter}.tar``` para esse novo diretório
@@ -38,10 +37,7 @@ mkdir grok-exporter
 ```
 Criar esses <a href="https://github.com/gbrlins/grok-exporter-formula/tree/master/arquivos">arquivos</a> dentro dessa pasta
 
-7. **Baixar pacote usbutils**
-```
-zypper in usbutils
-```
+7. **Baixar pacote usbutils**: ```zypper in usbutils```
 
 8. **Restartar o SUSE Manager**: ```spacewalk-service restart```
 
