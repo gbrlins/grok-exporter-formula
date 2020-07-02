@@ -2,7 +2,7 @@ global:
   config_version: 3
 input:
   type: file
-  path: ./example/usb_activity.log
+  path: /etc/grok-exporter/grok_exporter-1.0.0.RC3.linux-amd64/example/usb_activity.log
   readall: true
 grok:
   patterns_dir: ./patterns
