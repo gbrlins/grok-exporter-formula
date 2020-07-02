@@ -44,4 +44,7 @@ Criar esses <a href="https://github.com/gbrlins/grok-exporter/blob/master/arquiv
 ```spacewalk-service restart```
 
 ### Passo 8: Configurar o arquivo prometheus.yml do host rodando Prometheus
-```vim /etc/prometheus/prometheus.yml```
+```
+vim /etc/prometheus/prometheus.yml
+systemctl restart prometheus.service
+```
