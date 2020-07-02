@@ -11,7 +11,7 @@ extract-grok:
 
 cron-usb:
   cron.present:
-    - name: usb-devices | grep Product= > /etc/grok-exporter/grok_exporter-1.0.0.RC3.linux-amd64/example/usb_devices.log
+    - name: usb-devices | grep Product= > /etc/grok-exporter/grok_exporter-1.0.0.RC3.linux-amd64/example/usb_activity.log
     - identifier: Rotina de Log para registrar dispositivos conectados
     - user: root
 
