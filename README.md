@@ -16,7 +16,7 @@ unzip grok_exporter-1.0.0.RC3.linux-amd64.zip
 cd grok_exporter-1.0.0.RC3.linux-amd64/
 ``` 
 ### Passo 2: Configurar arquivo config.yml
-O arquivo encontra-se por padrão dentro da pasta "example". Entrar no diretório example e substituir o arquivo config-file.yml pelo conteúdo do arquivo <a href="https://github.com/gbrlins/grok-exporter/blob/master/config-file.yml">config.yml</a>
+O arquivo encontra-se por padrão dentro da pasta "example". Entrar no diretório example e substituir o arquivo config.yml pelo conteúdo do arquivo <a href="https://github.com/gbrlins/grok-exporter/blob/master/config.yml">config.yml</a>
 
 *obs: A identação é importante para o funcionamento. Verifique!*
 
