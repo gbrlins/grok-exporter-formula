@@ -32,9 +32,9 @@ cd /srv/salt/grok-exporter
 ### Passo 5: Dentro do diretório atual, mover .tar
 ```mkdir files``` e ```mv {grok-exporter}.tar``` para esse novo diretório
 
-### Passo 6: Configurar metada
+### Passo 6: Configurar metadata
 ```
-cd /srv/formula_metada
+cd /srv/formula_metadata
 mkdir grok-exporter
 ```
 
