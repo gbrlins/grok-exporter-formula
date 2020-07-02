@@ -41,7 +41,9 @@ mkdir grok-exporter
 Criar esses <a href="https://github.com/gbrlins/grok-exporter/blob/master/arquivos">arquivos</a> dentro dessa pasta
 
 ### Passo 7: Restartar o SUSE Manager
-```spacewalk-service restart```
+```
+spacewalk-service restart
+```
 
 ### Passo 8: Configurar o arquivo prometheus.yml do host rodando Prometheus
 ```
