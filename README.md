@@ -16,7 +16,7 @@ unzip grok_exporter-1.0.0.RC3.linux-amd64.zip
 cd grok_exporter-1.0.0.RC3.linux-amd64/
 ``` 
 ### Passo 2: Configurar arquivo config.yml
-O arquivo encontra-se por padrão dentro da pasta "example". Entrar no diretório example e substituir o arquivo config.yml pelo conteúdo do arquivo <a href="https://github.com/gbrlins/grok-exporter/blob/master/config.yml">config.yml</a>
+O arquivo encontra-se por padrão dentro da pasta "example". Entrar no diretório example e substituir o arquivo config.yml pelo conteúdo do arquivo <a href="https://github.com/gbrlins/grok-exporter-formula/blob/master/config.yml">config.yml</a>
 
 *obs: A identação é importante para o funcionamento. Verifique!*
 
@@ -27,7 +27,7 @@ mkdir /srv/salt/grok-exporter
 cd /srv/salt/grok-exporter
 ```
 ### Passo 4: Criar salt formula com o arquivo init.sls
-```vim init.sls``` com o conteúdo de <a href="https://github.com/gbCrrlins/grok-exporter-formula/blob/master/init.sls">init.sls</a>
+```vim init.sls``` com o conteúdo de <a href="https://github.com/gbrlins/grok-exporter-formula/blob/master/init.sls">init.sls</a>
 
 ### Passo 5: Dentro do diretório atual, mover .tar
 ```mkdir files``` e ```mv {grok-exporter}.tar``` para esse novo diretório
@@ -36,7 +36,7 @@ cd /srv/salt/grok-exporter
 ```cd /srv/formula_metada```
 ```mkdir grok-exporter```
 
-Criar esses <a href="https://github.com/gbrlins/grok-exporter/blob/master/config-file.yml">arquivos</a> dentro dessa pasta
+Criar esses <a href="https://github.com/gbrlins/grok-exporter/blob/master/arquivos">arquivos</a> dentro dessa pasta
 
 ### Passo 7: Restartar o SUSE Manager
 ```spacewalk-service restart```
