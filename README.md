@@ -41,7 +41,7 @@ cd /srv/formula_metadata
 mkdir grok-exporter
 ```
 
-Criar esses <a href="https://github.com/gbrlins/grok-exporter/blob/master/arquivos">arquivos</a> dentro dessa pasta
+Criar esses <a href="https://github.com/gbrlins/grok-exporter-formula/tree/master/arquivos">arquivos</a> dentro dessa pasta
 
 7. Restartar o SUSE Manager:
 ```
