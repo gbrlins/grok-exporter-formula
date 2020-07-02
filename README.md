@@ -15,6 +15,7 @@ cd grok_exporter-1.0.0.RC3.linux-amd64/
 ``` 
 
 2. **Configurar arquivo config.yml**: O arquivo encontra-se por padrão dentro da pasta "example". Entrar no diretório example e substituir o arquivo _config.yml_ pelo conteúdo do arquivo <a href="https://github.com/gbrlins/grok-exporter-formula/blob/master/config.yml">config.yml</a>
+
 *obs: A identação é importante para o funcionamento. Verifique!*
 
 3. **Criar .tar do Grok e mover para o diretório específico:** Voltar para fora do diretório grok-exporter e aplicar o comando:
@@ -37,9 +38,14 @@ mkdir grok-exporter
 ```
 Criar esses <a href="https://github.com/gbrlins/grok-exporter-formula/tree/master/arquivos">arquivos</a> dentro dessa pasta
 
-7. **Restartar o SUSE Manager**: ```spacewalk-service restart```
+7. **Baixar pacote usbutils**
+```
+zypper in usbutils
+```
 
-8. **Configurar o arquivo prometheus.yml do host rodando Prometheus**:
+8. **Restartar o SUSE Manager**: ```spacewalk-service restart```
+
+9. **Configurar o arquivo prometheus.yml do host rodando Prometheus**:
 ```
 vim /etc/prometheus/prometheus.yml
 systemctl restart prometheus.service
