@@ -33,8 +33,10 @@ cd /srv/salt/grok-exporter
 ```mkdir files``` e ```mv {grok-exporter}.tar``` para esse novo diretório
 
 ### Passo 6: Configurar metada
-```cd /srv/formula_metada```
-```mkdir grok-exporter```
+```
+cd /srv/formula_metada
+mkdir grok-exporter
+```
 
 Criar esses <a href="https://github.com/gbrlins/grok-exporter/blob/master/arquivos">arquivos</a> dentro dessa pasta
 
